@@ -4,7 +4,7 @@ import math
 
 def calc_credit_management_level(base_val, post_val):
     total_salary =base_val+post_val
-    social_insurance = round(total_salary * 0.17, -1)
+    social_insurance = round(total_salary * 0.18, -1)
     income_tax = (total_salary - social_insurance) *0.10
     credit =total_salary - social_insurance - income_tax 
     return credit
@@ -12,7 +12,7 @@ def calc_credit_management_level(base_val, post_val):
 def calc_credit_non_management_level(base_val, over_time):
     over_time_salary = math.floor(over_time * round(base_val / 160 *1.25, -1) /10) *10
     total_salary = base_val + over_time_salary
-    social_insurance = round(total_salary * 0.17, -1)
+    social_insurance = round(total_salary * 0.18, -1)
     income_tax = (total_salary - social_insurance) *0.10
     credit = total_salary - social_insurance -income_tax
     return credit
