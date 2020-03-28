@@ -32,7 +32,9 @@ if __name__ == "__main__":
                                     ["広田康博","non_manager",295000,0,20,0,0],
                                     ["菅沼洋一郎","non_manager",220000,0,35,0,0],
                                     ["菊地章","part_time",0,0,0,1200,90],
-                                    ["山岸柑奈","part_time",0,0,0,1000,120]]
+                                    ["山岸柑奈","part_time",0,0,0,1000,120],
+                                    ["望月由文","part_time",0,0,0,1100,90]
+                                    ]
                                     ))
     temp_df.columns= col_list
     df =df.append(temp_df)
