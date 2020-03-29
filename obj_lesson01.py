@@ -35,7 +35,8 @@ if __name__ == "__main__":
                                     ["菊地章","part_time",0,0,0,1200,90],
                                     ["山岸柑奈","part_time",0,0,0,1000,120],
                                     ["望月由文","part_time",0,0,0,1100,90]
-                                    input2
+									input2
+									input1
                                     ]
                                     ))
     temp_df.columns= col_list
